@@ -276,7 +276,7 @@ static int an8855_get_port_link(struct switch_dev *dev, int port,
 		link->speed = SWITCH_PORT_SPEED_1000;
 		break;
 	case MAC_SPD_2500:
-		link->speed = SWITCH_PORT_SPEED_2500;
+		link->speed = SWITCH_PORT_SPEED_1000;
 		break;
 	}
 
